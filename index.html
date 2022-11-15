@@ -14,7 +14,7 @@
     <!--  -->
     <header>
         <h1>
-            Conceptos fundamentales de JavaScript
+         JavaScript Concepts Check Table
         </h1>
         <hr />
     </header>
@@ -23,28 +23,28 @@
     <div></div>
 
     <div class="form-concepto">
-        <label> Conceptos de Javascript</label>
+        <label id="enter"> Enter Javascript concepts</label>
         <div class="d-flex">
             <input class="form-control me-2" />
-            <button class="btn btn-success">Agregar</button>
+            <button class="btn btn-warning">Add</button>
         </div>
     </div>
 
     <!-- Tabla de conceptos -->
     <main class="row pt-4">
         <div class="col-4 resumen">
-            <h5>Resumen de conceptos:</h5>
-            <ul>
+            <h5 id="summary">Summary of concepts:</h5>
+            <ul id="results">
                 <li>
                     Total:
                     <span class="total fw-bold"></span>
                 </li>
                 <li>
-                    Aprendidos:
+                    Learned:
                     <span class="aprendidos fw-bold"></span>
                 </li>
                 <li>
-                    Faltan por aprender:
+                    Still to learn:
                     <span class="falta-por-aprender fw-bold"></span>
                 </li>
             </ul>
@@ -53,10 +53,10 @@
         <div class="offset-2 col-6">
             <table class="table">
                 <thead>
-                    <tr>
+                    <tr id="enteredConcept">
                         <th>ID</th>
-                        <th>Conceptos</th>
-                        <th>Acciones</th>
+                        <th>Concepts</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody></tbody>

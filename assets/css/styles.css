@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     text-transform: uppercase;
-    text-shadow: 0.25rem 0.25rem 0.25rem orange;
+    text-shadow: 0.25rem 0.25rem 0.25rem rgb(34, 40, 188);
     font-size: 2.978rem;
     text-align: center;
     color: rgb(14, 14, 113);
@@ -37,3 +43,21 @@ h1 {
         background: rgb(244, 224, 224);
     }
 }
+
+#enter {
+    font-size: 30px;
+}
+
+#summary {
+    font-size: 25px;
+}
+
+#results,#enteredConcept {
+    font-size: 20px;
+}
+
+
+
+
+
+
