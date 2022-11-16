@@ -6,26 +6,27 @@
 
 h1 {
     text-transform: uppercase;
-    text-shadow: 0.25rem 0.25rem 0.25rem rgb(34, 40, 188);
+    text-shadow: 0.20rem 0.20rem 0.20rem rgb(34, 40, 188);
     font-size: 2.978rem;
     text-align: center;
     color: rgb(14, 14, 113);
-    animation: mymove 5s infinite;
+    animation: mymove 8s infinite;
     height: 5.313rem;
     margin-bottom: 1.875rem;
     padding: 1.063rem;
+    
 }
 
 @keyframes mymove {
     0% {
         top: 0px;
         left: 0px;
-        background: rgb(223, 203, 203);
+        background: rgb(241, 220, 220);
     }
     25% {
         top: 0px;
         left: 100px;
-        background: rgb(196, 196, 228);
+        background: rgb(193, 189, 193);
     }
     50% {
         top: 100px;
@@ -44,6 +45,10 @@ h1 {
     }
 }
 
+
+.table {
+    background-color: rgb(231, 236, 236);
+}
 #enter {
     font-size: 30px;
 }

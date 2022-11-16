@@ -103,6 +103,8 @@
                 "Modifica la descripción",
                 descripcionActual
             );
+
+
             // Actualizar la tabla
             actualizarTabla();
         };
